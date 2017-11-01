@@ -1,0 +1,2 @@
+# utl_using_a_macro_to_update_the_contents_of_a_parent_datastep_variable_at_execution_time
+Academic: Using a macro to update the contents of a parent datastep variable at execution time  The parent and child share a common addrress. I did get warning but code works. Passing by reference(address) usually means you want to access or change wha is at that address.  In this code we change Alices age in the parent datastep from 13 to 15 using a subroutine macro and    common storage
